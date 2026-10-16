@@ -1,0 +1,11 @@
+.env*
+.clerk/
+.git/
+.next/
+node_modules/
+agents/
+artifacts/
+test-results/
+playwright-report/
+coverage/
+*.tsbuildinfo

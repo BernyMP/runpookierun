@@ -1,0 +1,25 @@
+{
+  "name": "@pookie/editorial",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "weekly": "node scripts/weekly.mjs",
+    "preview": "npm --prefix ../.. run test:editorial-live",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "eve": "0.57.0",
+    "ai": "7.0.104",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.23.13"
+  },
+  "license": "MIT"
+}

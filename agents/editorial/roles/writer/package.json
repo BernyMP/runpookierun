@@ -1,0 +1,8 @@
+{
+  "name": "@pookie/writer",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "eve": "0.57.0"
+  }
+}
